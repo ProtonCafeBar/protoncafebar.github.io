@@ -437,6 +437,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -584,6 +585,37 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation: none;
   animation: none;
   border-radius: 0;
+}
+
+#hero .neueroffnung {
+  width: 100%;
+  margin-bottom: 5em;
+  padding-top: 1em;
+  background: rgba(12, 11, 9, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  #countdown {
+    display: flex;
+    align-items: center;
+    & li {
+      display: inline-block;
+      font-size: 1.5em;
+      list-style-type: none;
+      padding: 1em;
+      text-transform: uppercase;
+      text-align: center;
+
+      & span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 4.5rem;
+        color: #cda45e;
+      }
+    }
+  }
 }
 
 @media (min-width: 1024px) {
@@ -935,7 +967,9 @@ section {
 }
 
 .menu .menu-content::after {
-  content: "......................................................................" "...................................................................." "....................................................................";
+  content: "......................................................................"
+ "...................................................................."
+ "....................................................................";
   position: absolute;
   left: 20px;
   right: 0;
