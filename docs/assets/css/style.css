@@ -618,6 +618,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (max-width: 380px) {
+  #hero .neueroffnung {
+    margin-top: 98px;
+    font-size: 0.5em;
+  }
+}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
