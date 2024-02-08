@@ -618,7 +618,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-height: 850px) {
   #hero .neueroffnung {
     margin-top: 98px;
     font-size: 0.5em;
